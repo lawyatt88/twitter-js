@@ -8,4 +8,10 @@ router.get('/', function (req, res) {
   res.render( 'index', { tweets: tweets } );
 });
 
+router.use(express.static('public'))
+
+// router.get('/stylesheets/style.css', function(req, res, next) {
+//   res.sendFile('c:/cygwin64/home/owner/twitter-js/public/stylesheets/style.css');
+// });
+
 module.exports = router;

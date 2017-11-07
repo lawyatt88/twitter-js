@@ -17,10 +17,6 @@ nunjucks.configure('views', { noCache: true });
 
 app.use('/', routes);
 
-
-
-
-
 // const people = [{name: 'Full'}, {name: 'Stacker'}, {name: 'Son'}];
 // app.get("/" ,function(req, res, next) {
 //     res.render( 'index', {title: 'Hall of Fame', people: people}) 
